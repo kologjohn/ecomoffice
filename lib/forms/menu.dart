@@ -247,8 +247,8 @@ class Menus{
                                                     ),
                                                     borderRadius: BorderRadius.circular(10),
                                                   ),
-                                                  label: const Text("Region"),
-                                                  hintText: "Region",
+                                                  label: const Text("Item Category"),
+                                                  hintText: "Item Category",
                                                   border: OutlineInputBorder(
                                                       borderRadius: BorderRadius.circular(10)
                                                   ),
@@ -261,7 +261,7 @@ class Menus{
                                               fit: FlexFit.loose,
                                               title: Padding(
                                                 padding: EdgeInsets.all(8.0),
-                                                child: Align(alignment: Alignment.center,child: Text("Search for Region/Constituency",style: TextStyle(),)),
+                                                child: Align(alignment: Alignment.center,child: Text("Search for Catgeory",style: TextStyle(),)),
                                               ),
                                               showSearchBox: true,
                                             ),

@@ -221,8 +221,8 @@ class _DashboardState extends State<Dashboard> with TickerProviderStateMixin {
             ),
           ),
           body:<Widget>[
-            Report(tid: tid, norecord: norecord, checkstatus: checkstatus, tid_imput: tid_imput, onNotification: onScrollNotification),
-           // Homedashboard(tid: tid, norecord: norecord, checkstatus: checkstatus, tid_imput: tid_imput,onNotification: onScrollNotification,),
+          //  Report(tid: tid, norecord: norecord, checkstatus: checkstatus, tid_imput: tid_imput, onNotification: onScrollNotification),
+            Homedashboard(tid: tid, norecord: norecord, checkstatus: checkstatus, tid_imput: tid_imput,onNotification: onScrollNotification,),
             Home(tid: tid, norecord: norecord, checkstatus: checkstatus, tid_imput: tid_imput,onNotification: onScrollNotification,formval: formval,),
             Categorylist(norecord: norecord, checkstatus: checkstatus, onNotification: onScrollNotification,),
             Mainmenu(onscroll: onScrollNotification,)

@@ -119,6 +119,14 @@ class Mainmenu extends StatelessWidget {
                               const SizedBox(width: 10,),
                               const Text("Add New Items"),
                             ],),
+                            Container(
+                                height: 20,
+                                width: 25,
+                                decoration: BoxDecoration(
+                                    color: Colors.red,
+                                    borderRadius: BorderRadius.circular(10)
+                                ),
+                                child: Center(child: const Text("10",style: TextStyle(color: Colors.white),))),
                             const Icon(Icons.navigate_next),
                           ],
                         ),

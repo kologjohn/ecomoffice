@@ -22,7 +22,7 @@ import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.da
 import 'package:provider/provider.dart';
 import 'global.dart';
 void main() async{
-  String mainpage=Routes.dashboard;
+  String mainpage=Routes.login;
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   if(FireData().auth.currentUser!=null)
